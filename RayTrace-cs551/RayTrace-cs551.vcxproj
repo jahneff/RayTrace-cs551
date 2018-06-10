@@ -115,6 +115,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\lines.cpp" />
+    <ClCompile Include="..\src\matlib.cpp" />
+    <ClCompile Include="..\src\ObjLoader.cpp" />
+    <ClCompile Include="..\src\osuGraphics.c" />
+    <ClCompile Include="..\src\osuVector.cpp" />
+    <ClCompile Include="..\src\polyclip.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\lines.h" />
+    <ClInclude Include="..\src\matlib.h" />
+    <ClInclude Include="..\src\ObjLoader.h" />
+    <ClInclude Include="..\src\osuGraphics.h" />
+    <ClInclude Include="..\src\osuVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
